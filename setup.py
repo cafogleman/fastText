@@ -21,7 +21,7 @@ import subprocess
 import platform
 import io
 
-__version__ = "0.9.2"
+__version__ = "0.9.4"
 FASTTEXT_SRC = "src"
 
 # Based on https://github.com/pybind/python_example
@@ -176,7 +176,7 @@ setup(
     description="fasttext Python bindings",
     long_description=_get_readme(),
     ext_modules=ext_modules,
-    url="https://github.com/facebookresearch/fastText",
+    url="https://github.com/cafogleman/fastText",
     license="MIT",
     classifiers=[
         "Development Status :: 3 - Alpha",

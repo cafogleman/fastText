@@ -18,14 +18,14 @@ The first step of this tutorial is to install and build fastText. It only requir
 Let us start by downloading the [most recent release](https://github.com/facebookresearch/fastText/releases):
 
 ```bash
-$ wget https://github.com/facebookresearch/fastText/archive/v0.9.2.zip
-$ unzip v0.9.2.zip
+$ wget https://github.com/cafogleman/fastText/archive/v0.9.4.zip
+$ unzip v0.9.4.zip
 ```
 
 Move to the fastText directory and build it:
 
 ```bash
-$ cd fastText-0.9.2
+$ cd fastText-0.9.4
 # for command line tool :
 $ make
 # for python bindings :
